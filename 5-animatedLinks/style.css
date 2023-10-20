@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  color: #444;
+  font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+  margin:0 auto;
+  max-width:500px;
+  font-size: 20px;
+  line-height: 2;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  border-bottom: 2px solid #ecd018;
+}
+
+
+.highlight {
+  transition: all .2s;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  display: block;
+  background: #ecd018;
+}
+
+.menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin:100px 0;
+}
+
+.menu a {
+  font-size: 22px;
+  display: inline-block;
+  padding:5px 2px;
+  margin:0 20px;
+  color:black;
+  text-transform: uppercase;
+}

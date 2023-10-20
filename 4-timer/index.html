@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Таймер обратного отсчета</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer">
+    <div class="timer__controls">
+      <form name="timerForm">
+        <input type="text" name="minutes" placeholder="Кол-во минут...">
+      </form>
+      <button data-time="30" class="timer__button">30 секунд</button>
+      <button data-time="300" class="timer__button">5 минут</button>
+      <button data-time="900" class="timer__button">15 минут</button>
+      <button data-time="3600" class="timer__button">Обед</button>
+    </div>
+    <div class="timer_display">
+      <div class="timer_display-left"></div>
+      <p class="timer_display-end"></p>
+    </div>
+  </div>
+
+  <script src="code-start.js"></script>
+</body>
+</html>

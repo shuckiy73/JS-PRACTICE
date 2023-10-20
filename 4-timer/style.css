@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #5c0dac;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.timer {
+  display: flex;
+  min-height: 100vh;
+}
+
+.timer__controls {
+  display: flex;
+  flex-direction: column;
+  padding: 86px 0px;
+}
+
+.timer__controls > * {
+  flex: 1;
+}
+
+.timer__controls form {
+  max-height: 100px;
+  display: flex;
+}
+
+.timer__controls input {
+  flex: 1;
+  border: 0;
+  padding: 2rem;
+}
+
+.timer__button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background: rgba(0,0,0,0.2);
+  border-bottom: 2px solid rgba(0,0,0,0.4);
+  border-right: 1px solid rgba(0,0,0,0.2);
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.timer__button:hover,
+.timer__button:focus {
+  background: rgba(0,0,0,0.4);
+  outline: 0;
+}
+
+.timer_display {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer_display-left {
+  font-weight: 400;
+  font-size: 20rem;
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+}
+
+.timer_display-end {
+  font-size: 4rem;
+  color: white;
+}

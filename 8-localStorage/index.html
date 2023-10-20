@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>LocalStorage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <h2>Создай Свою Пиццу!</h2>
+    <p></p>
+    <ul class="items-list">
+      <li>Загружаю ингредиенты...</li>
+    </ul>
+    <form class="add-items-form">
+      <input type="text" name="item" placeholder="Название..." autocomplete="off" required>
+      <input type="submit" value="+ Добавить ингредиент">
+    </form>
+  </div>
+
+  <script>
+    const addItemsForm = document.querySelector('.add-items-form');
+    const itemsList = document.querySelector('.items-list');
+    const items = JSON.parse(localStorage.getItem('items')) || [];
+
+
+
+
+  </script>
+
+
+</body>
+
+</html>

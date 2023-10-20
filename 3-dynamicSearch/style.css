@@ -1,0 +1,68 @@
+html {
+  background-color: #f654ae;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 3px;
+  font-family: Arial, sans-serif;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .wrapper {
+    margin: 100px auto;
+  }
+
+  h2 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+
+  input {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .form {
+    max-width: 420px;
+    margin: 50px auto;
+  }
+  
+  input.search {
+    margin: 0;
+    text-align: center;
+    outline: 0;
+    border: 10px solid #f7f7f7;
+    width: 120%;
+    left: -18%;
+    position: relative;
+    z-index: 2;
+    border-radius: 4px;
+    font-size: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+  }
+  
+  .options {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .options li {
+    background: white;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    margin: 0;
+    padding: 18px;
+    text-transform: capitalize;
+  }
+  
+  .hl {
+    background: #ffc600;
+  }
+
+
+  
